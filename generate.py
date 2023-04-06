@@ -36,7 +36,7 @@ buttons_ques = [
 
 gen_button = [
     [
-        InlineKeyboardButton(text="🔱 اضغط هنا لأستخراج الكود 🔱 callback_data="generate")
+        InlineKeyboardButton(text="🔱 اضغط هنا لأستخراج الكو 🔱 callback_data="generate")
     ]
 ]
 
