@@ -15,17 +15,20 @@ async def start(bot: Client, msg: Message):
         text=f"""Hᴇʏ {msg.from_user.mention},
 
 Tʜɪs ɪs {me2},
-Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
-
-Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [𝐒𝐇𝐀𝐑𝐊](tg://user?id={OWNER_ID}) !""",
+⌯¦مرحبـاً بـك عزيـزي 📬 
+⌯¦في بــوت استـخـراج جلـسـة
+⌯¦استـخـراج تيرمـكـس تليثون
+⌯¦وبــايــروجـرام للـمـيــوزك🎧
+- يعمـل هـذا البـوت لمساعدتـك بطريقـة سهلـه للحصـول على كـود تيرمكـس لتشغيل تلـيثون والبايروجرام لتشغيل سـورس اغــاني
+تم انشـاء هـذا البـوت بواسطـة: ʙʏ : [بلاكثون](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
+                    InlineKeyboardButton(text="🔱 اضغط لبدا استخراج الكود 🔱", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐇𝐀𝐑𝐊", url="https://t.me/L_H_V"),
-                    InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=OWNER_ID)
+                    InlineKeyboardButton("سورس بلاكثون", url="https://t.me/gibthon7"),
+                    InlineKeyboardButton("⚙️ المطور ⚙️", user_id=OWNER_ID)
                 ]
             ]
         ),
