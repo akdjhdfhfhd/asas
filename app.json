@@ -11,7 +11,7 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/ZWKO124/session",
+  "repository": "https://github.com/ZEKO124/session",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
