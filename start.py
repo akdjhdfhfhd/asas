@@ -27,7 +27,7 @@ Tʜɪs ɪs {me2},
                     InlineKeyboardButton(text="🔱 اضغط لبدا استخراج الكود 🔱", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("سورس بلاكثون", url="https://t.me/gibthon7"),
+                    InlineKeyboardButton("سورس بلاكثون", url="https://t.me/ah07v"),
                     InlineKeyboardButton("⚙️ المطور ⚙️", user_id=OWNER_ID)
                 ]
             ]
